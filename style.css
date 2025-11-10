@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     color: rgb(253, 116, 139);
+    padding: 5px;
 }
 
 header {
@@ -20,17 +21,46 @@ span {
     margin: 10px 0px 5px 15px;
 
 }
-*{
-  padding: 0;
-  margin: 0;
-}
-p{
-  margin: 15px 0px;
-}
-h2{
-  margin: 10px 0px;
-}
-h1{
-  margin: 10px 0px;
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
+p {
+    margin: 15px 0px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+div {
+
+    color: rgb(3, 3, 3) padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0px 5px 15px;
+}
+
+div{
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+Main{
+    margin-top: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+}
