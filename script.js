@@ -3,7 +3,7 @@ texto.textContent= "Ágda";
 
 let nome = prompt("Qual é o seu nome?");
 
-if (nome == null){
+if (texto.textContent == null){
     texto.textContent = "Seja bem vindo;!";
 }
 else 
