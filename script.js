@@ -1,5 +1,5 @@
 let texto = document.querySelector("#texto");
-texto.textContent= "Ágda";
+//texto.textContent= "Ágda";
 
 let nome = prompt("Qual é o seu nome?");
 
